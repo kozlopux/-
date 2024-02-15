@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Zadanie1 {
+    public static void main(String[] args) {
+      
+      Scanner console = new Scanner(System.in);
+      String a = console.nextLine();
+      String b = console.nextLine();
+      //с учетом регистра
+      if (a.equals(b)==true)
+      {        System.out.println("Строки идентичны");      }
+      else 
+      {        System.out.println("Строки неидентичны");      }
+      
+      //без учета регистра
+     if (a.equalsIgnoreCase(b)==true)
+      {        System.out.println("Строки идентичны");      }
+      else 
+      {        System.out.println("Строки неидентичны");      }
